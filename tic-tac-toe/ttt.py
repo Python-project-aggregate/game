@@ -6,12 +6,12 @@ mat = {
     '7':'.', '8':'.', '9':'.'
 }
 # 判断是否满足条件
-def winer():
-    for i in mat.values():
-
-
-    if mat[1]==mat[2] ==mat[3]:
-        return True
+# def winer():
+#     for i in mat.values():
+#
+#
+#     if mat[1]==mat[2] ==mat[3]:
+#         return True
 def print_board(board):
     print(board['1'] + '|' + board['2'] + '|' + board['3'])
     print('-+-+-')

@@ -55,7 +55,7 @@ def main():
     while begin:
         player = input(">>")
         get_move(player)
-        if
+
 
 if __name__ == '__main__':
     main()
