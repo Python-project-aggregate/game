@@ -25,7 +25,7 @@ def print_board(board):
     print('-+-+-')
     print(board['7'] + '|' + board['8'] + '|' + board['9'])
 
-def test_win():
+
 
 def main():
     begin = True
