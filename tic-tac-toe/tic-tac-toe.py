@@ -35,16 +35,27 @@ def print_mat():
         s += '\n'
     print(s)
 # 定义主函数 :通过调用get_move, 让两位玩家x和o交替落子
+# def main():
+#     r = c = 0
+#     num_moves = 0
+#     os.system('cls')
+#     print_mat()
+#     print('移动 r,c 输入0 结束')
+#     exit_flag = False
+#     while not exit_flag:
+#         num_moves += 1
+#         if num_moves > 9:
+#             print('没有空间')
+#             break
+#         if num_moves % 2 > 0:
+#             cell_n = r * 3 + c + 1
+#             r, c =
 def main():
-    r = c = 0
-    num_moves = 0
-    os.system('cls')
-    print_mat()
-    print('移动 r,c 输入0 结束')
-    exit_flag = False
-    while not exit_flag:
-        num_moves += 1
-        if num_moves > 9:
-            print('no more space left')
-            break
+    begin = True
+    while begin:
+        player = input(">>")
+        get_move(player)
         if
+
+if __name__ == '__main__':
+    main()
