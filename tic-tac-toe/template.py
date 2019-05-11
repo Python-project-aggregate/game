@@ -166,4 +166,5 @@ def test_db1_threat(r,c):
             return True
     return False
 
-main()
+# main()
+print_mat()
