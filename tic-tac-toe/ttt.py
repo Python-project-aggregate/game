@@ -5,6 +5,13 @@ mat = {
     '4':'.', '5':'.', '6':'.',
     '7':'.', '8':'.', '9':'.'
 }
+# 判断是否满足条件
+def winer():
+    for i in mat.values():
+
+
+    if mat[1]==mat[2] ==mat[3]:
+        return True
 def print_board(board):
     print(board['1'] + '|' + board['2'] + '|' + board['3'])
     print('-+-+-')
@@ -18,7 +25,7 @@ def main():
         begin = False
         turn = 'x'
         counter = 0
-
+        print_board(mat)
         while counter < 9:
             move = input('轮到{}走棋, 请输入位置:'.format(turn))
             mat[move] = turn
